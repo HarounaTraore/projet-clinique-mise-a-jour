@@ -854,8 +854,10 @@ signup-login {
 }
 #services .div-blue .left {
     font-size: 4.2vw;
+
 }
 #services .div-blue .right {
+    margin: auto 0;
     display: flex;
     flex-direction: column;
     align-items: center;
