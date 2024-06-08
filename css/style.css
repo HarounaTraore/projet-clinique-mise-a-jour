@@ -877,7 +877,7 @@ signup-login {
 #services .chield {
     display: flex;
     flex-direction: column;
-    line-height: 2;
+    line-height: 2.3;
     font-size: 18px;
 }
 #services .chield .title {
