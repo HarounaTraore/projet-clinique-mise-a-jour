@@ -1015,8 +1015,10 @@ footer {
     font-size: 3vw;
 }
 
-
-
+/* ::::::::::::::::::::::::::::::::::::SIGN UP:::::::::::::::::::::::::::::::::::::::: */
+#signup header {
+    display: none;
+}
 #signup form {
     display: flex;
     width: 90%;
@@ -1033,8 +1035,10 @@ footer {
 #signup form input[type="submit"]{
     width: 60%;
 }
-
-
+/* :::::::::::::::::::::::::::::::::::::::LOGIN::::::::::::::::::::::::::::::::::::::::: */
+#login header {
+    display: none;
+}
 #login form {
     width: 80%;
     margin-bottom: 50px;
