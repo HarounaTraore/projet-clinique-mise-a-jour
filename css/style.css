@@ -184,6 +184,9 @@ span {
 #services .image-doctor img {
     width: 100%;
 }
+#services .content-service {
+    width: 90%;
+}
 .content-service .chield {
     display: grid;
     align-content: center;
@@ -197,8 +200,8 @@ span {
 .content-service .chield .title {
     grid-column: 1/3;
     list-style: none;
-    text-align: right;
-    text-align: center;
+    margin-left: 80px;
+    font-weight: bold;
 }
 
 .content-service .chield div {
@@ -407,10 +410,11 @@ span {
     justify-content: space-between;
     width: 90%;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 #register .contener img {
-    width: 40%;
-    height: 500px;
+    width: 30%;
+    /* height: 500px; */
     border-radius: 25px;
 
 }
@@ -420,7 +424,7 @@ span {
     grid-template-rows: repeat(8,auto);
     column-gap: 20px;
     padding: 25px;
-    margin-left: 20px;
+    margin-right: 5%;
     color: var(--muted);
     width: 50%;
 }
@@ -871,12 +875,17 @@ signup-login {
 #services .chield {
     display: flex;
     flex-direction: column;
-    line-height: 1.5;
+    line-height: 2;
+    font-size: 18px;
 }
 #services .chield .title {
     text-align: left;
     margin: 0 0 10px 0;
     font-weight: bold;
+}
+#services .chield div {
+    display: flex;
+    align-items: center;
 }
 #about-us .contener {
     display: flex;
