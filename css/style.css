@@ -1016,8 +1016,16 @@ footer {
 }
 
 /* ::::::::::::::::::::::::::::::::::::SIGN UP:::::::::::::::::::::::::::::::::::::::: */
-#signup header {
+.header-signup {
     display: none;
+}
+#signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100%;
+    margin-bottom: 50px;
 }
 #signup form {
     display: flex;
@@ -1036,8 +1044,15 @@ footer {
     width: 60%;
 }
 /* :::::::::::::::::::::::::::::::::::::::LOGIN::::::::::::::::::::::::::::::::::::::::: */
-#login header {
+.header-login {
     display: none;
+}
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100%;
 }
 #login form {
     width: 80%;
