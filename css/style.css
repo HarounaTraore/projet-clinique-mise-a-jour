@@ -1058,9 +1058,15 @@ footer {
     width: 80%;
     margin-bottom: 50px;
 }
+#login form .img-row a {
+    width: 30px;
+}
 #login form .img-row  {
     display: flex;
     width: 100%;
+}
+#signup form .img-row a {
+        width: 30px;
 }
 #signup form .img-row  {
     display: flex;
@@ -1076,15 +1082,13 @@ footer {
 
 }
 #signup .signup-login .connect {
-    width: 30px;
+    width: max-content;
     font-size: 25px;
     font-weight: bold;
     bottom: 0;
     text-decoration: none;
     position: absolute;
-    right: 10px;
+    right: -30px;
     color: var(--primary);
-
-
 }
 }
