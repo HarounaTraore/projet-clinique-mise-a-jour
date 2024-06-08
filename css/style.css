@@ -1037,6 +1037,7 @@ footer {
 
 #login form {
     width: 80%;
+    margin-bottom: 50px;
 }
 #login form .img-row  {
     display: flex;
