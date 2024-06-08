@@ -1,10 +1,10 @@
 # Maquette de Site Web pour une Clinique Dentaire
 
-Ce projet consiste  à realiser  le site web a partir d'une maquette donnée. L'objectif est de reproduire la maquette de façon identitique. 
+Ce projet consiste  à mettre à jour  le site web du cabinet dentaire. L'objectif est de mettre à le site, ajouter la page login, sign up et gérer la responsivité. 
 
 ## Technologies Utilisées
 
 - **HTML**
-
+- **JavaScript**
 - **CSS** 
 
